@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.677" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="User Login" name="Successful login with valid credentials" time="24.024">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters valid username and password................................passed
+And User clicks on the login button.........................................passed
+Then User should be redirected to the dashboard page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Unsuccessful login with invalid credentials" time="8.413">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters invalid username and password..............................passed
+And User clicks on the login button.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
